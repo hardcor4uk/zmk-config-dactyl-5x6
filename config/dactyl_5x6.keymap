@@ -20,7 +20,7 @@
         &kp LEFT_SHIFT    &kp A   &kp S          &kp D         &kp F             &kp G      &kp H              &kp J          &kp K              &kp L              &kp SEMI  &kp SQT
         &kp LEFT_CONTROL  &kp Z   &kp X          &kp C         &kp V             &kp B      &kp N              &kp M          &kp COMMA          &kp DOT            &kp FSLH  &kp RIGHT_SHIFT
                                   &kp GRAVE      &kp EQUAL     &kp LEFT_COMMAND  &kp SPACE  &kp RET            &kp RIGHT_ALT  &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-                                  &kp BACKSPACE  &kp LEFT_ALT  &kp TAB           &tog 1     &kp RIGHT_COMMAND  &kp DELETE     &kp RIGHT_CONTROL  &kp BACKSLASH
+                                  &kp BACKSPACE  &kp LEFT_ALT  &mo 2             &tog 1     &kp RIGHT_COMMAND  &kp DELETE     &kp RIGHT_CONTROL  &kp BACKSLASH
       >;
     };
 
@@ -37,12 +37,12 @@
 
     layer_2 {
       bindings = <
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans     &trans        &trans            &trans     &trans  &trans           &trans            &trans             &trans           &trans     &trans
+        &trans  &trans     &trans        &trans            &trans     &trans  &kp EXCLAMATION  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL  &kp BACKSLASH
+        &trans  &trans     &trans        &trans            &trans     &trans  &kp LEFT_ARROW   &kp DOWN_ARROW    &kp UP_ARROW       &kp RIGHT_ARROW  &kp GRAVE  &trans
+        &trans  &kp LG(Z)  &kp LG(X)     &kp LG(C)         &kp LG(V)  &trans  &trans           &trans            &trans             &trans           &trans     &trans
+                           &kp LEFT_ALT  &kp LEFT_COMMAND  &trans     &trans  &trans           &trans            &trans             &trans
+                           &trans        &trans            &trans     &trans  &trans           &trans            &trans             &trans
       >;
     };
   };
