@@ -20,7 +20,7 @@
         &kp LEFT_SHIFT    &kp A   &kp S          &kp D         &kp F             &kp G      &kp H              &kp J          &kp K             &kp L              &kp SEMI  &kp SQT
         &kp LEFT_CONTROL  &kp Z   &kp X          &kp C         &kp V             &kp B      &kp N              &kp M          &kp COMMA         &kp DOT            &kp FSLH  &kp RIGHT_SHIFT
                                   &kp GRAVE      &kp EQUAL     &mo 2             &kp SPACE  &kp RET            &kp RIGHT_ALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-                                  &kp BACKSPACE  &kp LEFT_ALT  &kp LEFT_COMMAND  &tog 1     &kp RIGHT_COMMAND  &kp LC(V)      &kp LC(C)         &kp BACKSLASH
+                                  &kp BACKSPACE  &kp LEFT_ALT  &kp LEFT_COMMAND  &tog 1     &kp RIGHT_COMMAND  &kp LC(V)      &kp LC(C)         &kp SPACE
       >;
     };
 
